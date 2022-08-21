@@ -30,8 +30,8 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/analytics':
         return analytics.layout
-    if pathname == '/archive':
-        return archive.layout
+    if pathname == '/applefinance':
+        return applefinance.layout
     if pathname == '/dashboard':
         return dashboard.layout
     if pathname == '/list':
